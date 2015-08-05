@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{5058d2bf-8951-4946-bf63-d6ea8af7f261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{0e0db716-561d-46ff-8c31-cae10baac8fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Octree.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\oclUtils.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\shrQATest.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\shrUtils.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="Bmp.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="glsl.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Rle4.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="VecMath.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\cl_kernel_src.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\postprocessGL_Host.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ext\cmd_arg_reader.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ext\oclUtils.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ext\shrUtils.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="Bmp.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Rle4.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="VecMath.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="..\src\PostprocessGL.cl">
+      <Filter>src</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+</Project>

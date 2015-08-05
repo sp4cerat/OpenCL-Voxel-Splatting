@@ -1,0 +1,11 @@
+C:\Code\#Demo\CUBE\SPLAT_CL_VS2010\SplattingTest\framework\..\bin\Win32\cl splatting.exe Starting...
+
+ Image Width = 1024, Image Height = 768, Blur Radius = 4
+
+Using CL-GL Interop...
+
+Device # 0, GeForce GTX 765M
+
+Standard GL Loop...
+ OpenCL GPU Postprocess ON  1024x768
+ OpenCL GPU Postprocess ON  1024x768
